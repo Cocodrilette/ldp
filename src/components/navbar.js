@@ -5,9 +5,6 @@ import '../styles/colorify.css';
 import '../styles/fonting.css';
 
 class Navbar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
 
