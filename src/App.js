@@ -2,8 +2,12 @@ import './styles/App.css';
 import './styles/colorify.css';
 
 import Navbar from './components/navbar';
+<<<<<<< HEAD
 // import UserLicence from './components/userLicence';
 // import AddNewLicense from './components/addNewLicense';
+=======
+import AddNewLicense from './components/addNewLicense';
+>>>>>>> ab267e24067430ab3d5d213476adb89aaa43245e
 import React from 'react';
 
 class App extends React.Component {
@@ -18,7 +22,11 @@ class App extends React.Component {
       qrCodeImage: '',
       urlInput: '',
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ab267e24067430ab3d5d213476adb89aaa43245e
     this.buttons = [
       {
         name: 'Share',
@@ -74,6 +82,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+<<<<<<< HEAD
         <div className="mainContainer">
         <div className='content'>
           {/* <UserLicence /> */}
@@ -85,6 +94,13 @@ class App extends React.Component {
             />
           </nav>
         </div>
+=======
+        <AddNewLicense isOpen={this.state.isOpen} />
+        <Navbar 
+          buttons={this.buttons}
+          homeButton={this.homeButton}
+        />
+>>>>>>> ab267e24067430ab3d5d213476adb89aaa43245e
       </div>
     );
   }
