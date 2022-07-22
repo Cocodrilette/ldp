@@ -1,0 +1,9 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+span[class='material-symbols-sharp'] {
+    font-size: 40px;
+}
