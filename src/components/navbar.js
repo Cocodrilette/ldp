@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                 <div className="navbar-item" key={index}>
                     <span
                         className="material-symbols-sharp"
-                        onClick={button.handleOpen}>
+                        onClick={button.handleClick}>
                         {button.iconName}
                     </span>
                 </div>
@@ -29,7 +29,7 @@ class Navbar extends React.Component {
                     <div className='navbar-home-btn'>
                         <span
                             className="material-symbols-sharp"
-                            onClick={this.props.homeButton.handleHome}>
+                            onClick={this.props.homeButton.handleClick}>
                             {this.props.homeButton.iconName}
                         </span>
                     </div>
